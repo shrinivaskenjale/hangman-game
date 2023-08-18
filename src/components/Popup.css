@@ -1,0 +1,33 @@
+.popup-container {
+  background: rgb(0, 0, 0, 0.3);
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+
+.popup-container.show {
+  display: grid;
+  place-items: center;
+}
+
+.popup {
+  background: #2980b9;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.popup button {
+  margin-top: 1rem;
+  background: #34495e;
+  color: white;
+  padding: 0.5rem;
+  border: transparent;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.popup button:active {
+  transform: scale(0.9);
+}
